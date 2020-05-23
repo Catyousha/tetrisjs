@@ -1,0 +1,101 @@
+html, body{
+    display: block;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header{
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Squada One', cursive;
+    font-size: 52px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    width: 100%;
+    padding-top: 20px;
+    margin: 0;
+    text-shadow: 5px 5px #afafaf;
+  }
+  
+  h2 {
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+.container{
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    background-color: #eeeeee;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid rgb(161, 161, 161);
+    border-radius: 12px;
+}
+
+.grid div{
+    height: 20px;
+    width: 20px;
+    -webkit-box-shadow:inset 0px 0px 0px 0.3px gray;
+    -moz-box-shadow:inset 0px 0px 0px 0.3px gray;
+    box-shadow:inset 0px 0px 0px 0.3px gray;
+}
+
+.grid .taken{
+    
+}
+
+.tetromino{
+    background-color: green;
+}
+
+.blokZ{
+    background-color: #a1de93;
+}
+.blokI{
+    background-color: #70a1d7;
+}
+.blokL{
+    background-color: #f47c7c;
+}
+.blokO{
+    background-color: #f7f48b;
+}
+.blokT{
+    background-color: #f9c49a;
+}
+
+.mini-grid{
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: 393e46;
+    border: 3px solid rgb(161, 161, 161);
+    border-radius: 12px;
+}
+
+.mini-grid div{
+    width: 20px;
+    height: 20px;
+    -webkit-box-shadow:inset 0px 0px 0px 0.3px gray;
+    -moz-box-shadow:inset 0px 0px 0px 0.3px gray;
+    box-shadow:inset 0px 0px 0px 0.3px gray;
+}
